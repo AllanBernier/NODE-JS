@@ -33,7 +33,7 @@ exec('git push',(error, stdout, stderr) => {
     }
     if (stderr){
         console.log("Stderr :" + stderr)
-        return
+        return 
     }
     console.log(stdout)
 })
