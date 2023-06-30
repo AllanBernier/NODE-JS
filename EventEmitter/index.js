@@ -63,5 +63,3 @@ em.on('get-result', function(result){
 console.log('Debut programme')
 em.emit('get-random')
 console.log('Fin programme')
-
-
