@@ -2,7 +2,7 @@ const {exec} = require('child_process')
 let args = process.argv.slice(2)
 
 if (args.length == 1){
-    exec('dir ' + args[0],(error, stdout, stderr) => {
+    exec(args[0] + " --version",(error, stdout, stderr) => {
 
         if (error){
             console.log("Error :" + error)
